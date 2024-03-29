@@ -1,0 +1,13 @@
+[package]
+name = "cjk-align"
+version = "0.1.0"
+edition = "2021"
+authors = ["lilydjwg <lilydjwg@gmail.com>"]
+description = "Align CJK and emoji characters correctly on terminals"
+license = "BSD-3-Clause"
+repository = "https://github.com/lilydjwg/cjk-align"
+keywords = ["cjk", "unicode", "terminal", "formatting"]
+categories = ["command-line-interface", "internationalization"]
+
+[dependencies]
+unicode-width = "0.1.11"
